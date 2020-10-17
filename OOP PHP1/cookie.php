@@ -15,8 +15,5 @@ if(isset(_POST['submit'])){
 setcookie('shirt',$_POST['shirt'],time()-60*60*60);
 if($_COOKIE['shirt']){
   echo "please buy a shirt";
-else{
-  echo "please buy a shirt";
-}
 }
 ?>
